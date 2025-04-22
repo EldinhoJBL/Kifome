@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB1B23"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="71dp"
+        android:text="Adicionar"
+        android:textColorLink="#FFC107"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="711dp" />
+
+    <ListView
+        android:layout_width="332dp"
+        android:layout_height="167dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="44dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_30_223743"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="58dp"
+        android:layout_height="29dp"
+        android:text="Nome:"
+
+        android:textColor="#FAFAFA"
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:text="Itens do Pedido:"
+
+        android:textColor="#FAFAFA"
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="151dp"
+        android:layout_height="38dp"
+        android:text="Observação:"
+
+        android:textColor="#FAFAFA"
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="366dp"
+        android:layout_height="216dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_30_224001"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="316dp"
+        android:layout_height="197dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257"
+        tools:ignore="ImageContrastCheck,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

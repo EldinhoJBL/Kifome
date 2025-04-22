@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB1B23"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="68dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257"
+        tools:ignore="ImageContrastCheck,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="44dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="493dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_074914"
+        tools:layout_editor_absoluteX="-70dp"
+        tools:layout_editor_absoluteY="705dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075043"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="721dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="95dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_27_003637"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="720dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075142"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="721dp" />
+
+    <ListView
+        android:layout_width="383dp"
+        android:layout_height="303dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB1B23"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="316dp"
+        android:layout_height="197dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257"
+        tools:ignore="ImageContrastCheck,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="359dp"
+        android:layout_height="660dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_27_074158"
+        tools:layout_editor_absoluteX="13dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
