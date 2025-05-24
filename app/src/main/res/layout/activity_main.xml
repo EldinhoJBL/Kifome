@@ -5,15 +5,39 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EB1B23"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="28dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Logo do aplicativo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="367dp"
+        android:layout_height="572dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="64dp"
+        android:contentDescription="Imagem principal do aplicativo"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.7"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@id/imageView27"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_27_074158" />
 </androidx.constraintlayout.widget.ConstraintLayout>
