@@ -32,12 +32,14 @@
         app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        app:srcCompat="@drawable/captura_de_tela_2025_05_25_125912" />
+        app:srcCompat="@drawable/captura_de_tela_2025_05_25_125912"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView51"
         android:layout_width="283dp"
         android:layout_height="27dp"
+        android:contentDescription="@string/todoi2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +54,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-        app:srcCompat="@drawable/captura_de_tela_2025_05_25_125931" />
+        app:srcCompat="@drawable/captura_de_tela_2025_05_25_125931"
+        tools:ignore="ContentDescription" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -67,7 +70,8 @@
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        app:layout_constraintVertical_bias="0.255">
+        app:layout_constraintVertical_bias="0.255"
+        tools:ignore="DuplicateSpeakableTextCheck">
 
         <ImageView
             android:id="@+id/imageView52"
@@ -77,7 +81,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/botao2" />
+            app:srcCompat="@drawable/botao2"
+            tools:ignore="ContentDescription" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -103,7 +108,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/botao1" />
+            app:srcCompat="@drawable/botao1"
+            tools:ignore="ContentDescription" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
@@ -115,6 +121,7 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView49"
-        app:srcCompat="@drawable/captura_de_tela_2025_05_25_125922" />
+        app:srcCompat="@drawable/captura_de_tela_2025_05_25_125922"
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
