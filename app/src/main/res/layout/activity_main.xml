@@ -64,7 +64,6 @@
         android:clickable="true"
         android:contentDescription="@string/menu_image_description"
         android:focusable="true"
-        android:onClick="CardapioClienteInterface1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
