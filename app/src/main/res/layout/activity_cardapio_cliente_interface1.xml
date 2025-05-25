@@ -8,26 +8,43 @@
     android:background="#EB1B23"
     tools:context=".CardapioClienteInterface1">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="149dp"
-        android:layout_height="68dp"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257"
-        tools:ignore="ImageContrastCheck,MissingConstraints,VisualLintBounds" />
-
     <ListView
+        android:id="@+id/listView"
         android:layout_width="382dp"
         android:layout_height="581dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="27dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:importantForAccessibility="no"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="MainActivity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
