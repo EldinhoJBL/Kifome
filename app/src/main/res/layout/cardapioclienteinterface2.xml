@@ -29,9 +29,11 @@
         android:id="@+id/imageView18"
         android:layout_width="262dp"
         android:layout_height="290dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/captura_de_tela_2025_03_29_163858"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        tools:layout_editor_absoluteY="-1dp" />
 
     <EditText
         android:id="@+id/editTextText"

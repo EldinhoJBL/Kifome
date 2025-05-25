@@ -20,18 +20,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.8"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257" />
+        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257"
+        tools:ignore="HardcodedText,ImageContrastCheck" />
 
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="376dp"
-        android:layout_height="651dp"
-        android:layout_marginEnd="12dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="365dp"
+        android:layout_height="544dp"
+        android:clickable="true"
+        android:onClick="CardapioClienteInterface1"
+        android:contentDescription="@string/menu_image_description"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_27_074158" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" >
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="359dp"
+            android:layout_height="529dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111"
+            app:srcCompat="@drawable/captura_de_tela_2025_03_27_074158" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
