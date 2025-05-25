@@ -24,16 +24,16 @@
         tools:ignore="HardcodedText,ImageContrastCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="365dp"
-        android:layout_height="544dp"
+        android:layout_width="368dp"
+        android:layout_height="545dp"
         android:clickable="true"
-        android:onClick="CardapioClienteInterface1"
         android:contentDescription="@string/menu_image_description"
         android:focusable="true"
+        android:onClick="CardapioClienteInterface1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25" >
+        app:layout_constraintTop_toBottomOf="@+id/imageView25">
 
         <ImageView
             android:id="@+id/imageView27"

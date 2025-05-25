@@ -8,6 +8,38 @@
     android:background="#EB1B23"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="493dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_074914"
+        tools:layout_editor_absoluteX="-68dp"
+        tools:layout_editor_absoluteY="726dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075043"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="742dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="95dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_27_003637"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075142"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="742dp" />
+
     <ListView
         android:layout_width="388dp"
         android:layout_height="583dp"
@@ -24,38 +56,6 @@
         tools:ignore="ImageContrastCheck,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="493dp"
-        android:layout_height="116dp"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_29_074914"
-        tools:layout_editor_absoluteX="-70dp"
-        tools:layout_editor_absoluteY="705dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="117dp"
-        android:layout_height="57dp"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075043"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="721dp" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="95dp"
-        android:layout_height="58dp"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_27_003637"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="720dp" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="108dp"
-        android:layout_height="57dp"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075142"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="721dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

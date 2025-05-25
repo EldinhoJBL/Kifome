@@ -8,6 +8,45 @@
     android:background="#EB1B23"
     tools:context=".CardapioClienteInterface1">
 
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="493dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_074914"
+        tools:layout_editor_absoluteX="-68dp"
+        tools:layout_editor_absoluteY="726dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075043"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="742dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="95dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_27_003637"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075142"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="742dp" />
+
+    <ListView
+        android:layout_width="388dp"
+        android:layout_height="583dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="102dp" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="382dp"
@@ -18,7 +57,7 @@
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.407" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="27dp"
@@ -34,9 +73,9 @@
             android:id="@+id/imageView35"
             android:layout_width="31dp"
             android:layout_height="25dp"
-            android:importantForAccessibility="no"
             android:clickable="true"
             android:focusable="true"
+            android:importantForAccessibility="no"
             android:onClick="MainActivity"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +83,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939" />
+            app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939"
+            tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
