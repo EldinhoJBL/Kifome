@@ -10,35 +10,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class CardapioClienteInterface1 extends AppCompatActivity {
+public class ConfiguracoesClienteInterface1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_cardapio_cliente_interface1);
+        setContentView(R.layout.activity_configuracoes_cliente_interface1);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
-    public void MainActivity(View view) {
-
-        Intent in = new Intent(CardapioClienteInterface1.this, MainActivity.class);
+    public void CardapioClienteInterface1(View view) {
+        Intent in = new Intent(ConfiguracoesClienteInterface1.this, CardapioClienteInterface1.class);
         startActivity(in);
     }
-
-    public void CardapioClienteInterface2(View view) {
-
-        Intent in = new Intent(CardapioClienteInterface1.this, CardapioClienteInterface2.class);
-        startActivity(in);
-    }
-
-    public void ConfiguracoesClienteInterface1(View view) {
-
-        Intent in = new Intent(CardapioClienteInterface1.this, ConfiguracoesClienteInterface1.class);
-        startActivity(in);
-    }
-
 }
