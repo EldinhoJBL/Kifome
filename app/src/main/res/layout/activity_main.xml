@@ -34,35 +34,12 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
         app:srcCompat="@drawable/captura_de_tela_2025_05_25_125912" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
-        android:layout_width="374dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="16dp"
-        android:clickable="true"
-        android:contentDescription="@string/menu_image_description"
-        android:focusable="true"
-        android:onClick="CardapioClienteInterface1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.789"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView48">
-
-        <ImageView
-            android:id="@+id/imageView53"
-            android:layout_width="365dp"
-            android:layout_height="92dp"
-            app:srcCompat="@drawable/botao1"
-            tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="4dp" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
     <ImageView
         android:id="@+id/imageView51"
-        android:layout_width="291dp"
+        android:layout_width="283dp"
         android:layout_height="27dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
         app:srcCompat="@drawable/captura_de_tela_2025_05_25_130752" />
@@ -87,17 +64,46 @@
         android:onClick="CardapioClienteInterface1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        app:layout_constraintVertical_bias="0.261">
+        app:layout_constraintVertical_bias="0.255">
 
         <ImageView
             android:id="@+id/imageView52"
             android:layout_width="361dp"
             android:layout_height="92dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao2" />
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="374dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contentDescription="@string/menu_image_description"
+        android:focusable="true"
+        android:onClick="CardapioClienteInterface1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView48">
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="365dp"
+            android:layout_height="92dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botao1" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
