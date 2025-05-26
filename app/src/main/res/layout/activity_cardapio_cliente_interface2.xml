@@ -33,18 +33,6 @@
         tools:layout_editor_absoluteX="-18dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="122dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view4"
-        app:srcCompat="@drawable/captura_de_tela_2025_03_29_075043" />
-
-    <ImageView
         android:id="@+id/imageView10"
         android:layout_width="100dp"
         android:layout_height="60dp"
@@ -65,10 +53,9 @@
         android:layout_marginTop="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.555"
+        app:layout_constraintVertical_bias="0.551"
         app:srcCompat="@drawable/captura_de_tela_2025_03_29_075142" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -100,5 +87,24 @@
             tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="104dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/image5" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="432dp"
+        android:layout_height="548dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
