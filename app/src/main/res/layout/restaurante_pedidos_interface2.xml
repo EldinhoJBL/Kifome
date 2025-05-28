@@ -8,15 +8,6 @@
     android:background="#EB1B23"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="155dp"
-        android:layout_height="71dp"
-        android:text="Adicionar"
-        android:textColorLink="#FFC107"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="711dp" />
-
     <ListView
         android:layout_width="332dp"
         android:layout_height="167dp"
