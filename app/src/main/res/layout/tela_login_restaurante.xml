@@ -29,7 +29,15 @@
         android:layout_height="237dp"
         android:src="@drawable/captura_de_tela_2025_05_28_222224"
         tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="501dp" />
+        tools:layout_editor_absoluteY="493dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="374dp"
+        android:layout_height="154dp"
+        android:src="@drawable/captura_de_tela_2025_05_28_222213"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="326dp" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -37,16 +45,9 @@
         android:layout_height="135dp"
         android:src="@drawable/captura_de_tela_2025_05_28_222152"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="374dp"
-        android:layout_height="154dp"
-        android:src="@drawable/captura_de_tela_2025_05_28_222213"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="348dp" />
+        tools:layout_editor_absoluteY="203dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -60,7 +61,7 @@
         android:foregroundTint="#EDD400"
         android:text="Esqueci minha senha"
         android:textColor="#FFC107"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="474dp" />
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="452dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
