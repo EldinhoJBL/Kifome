@@ -76,12 +76,15 @@
             android:id="@+id/imageView52"
             android:layout_width="361dp"
             android:layout_height="92dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="abrirLoginRestaurante"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao2"
-            tools:ignore="ContentDescription" />
+            android:contentDescription="Botão de login para restaurantes"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
