@@ -1,36 +1,35 @@
 package com.example.kifome;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.firebase.Firebase;
+public class RestauranteEditarCardapioInterface1 extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
+    Viewholder mViewHolder = new Viewholder();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_restaurante_editar_cardapio_interface1);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
 
-
+            mViewHolder.rv_cardapio = findViewById(R.id.rv_cardapio);
         });
     }
-    public void CardapioClienteInterface1(View view) {
 
-        Intent in = new Intent(MainActivity.this, CardapioClienteInterface1.class);
-        startActivity(in);
+    private static class Viewholder{
+        RecyclerView rv_cardapio;
+
     }
 
 }

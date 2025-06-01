@@ -6,10 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EB1B23"
-    tools:context=".MainActivity">
+    tools:context=".RestauranteEditarCardapioInterface1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cardapio"
+        android:layout_width="384dp"
+        android:layout_height="557dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton2"
         android:layout_width="493dp"
         android:layout_height="116dp"
         app:srcCompat="@drawable/captura_de_tela_2025_03_29_074914"
@@ -17,7 +27,7 @@
         tools:layout_editor_absoluteY="726dp" />
 
     <ImageView
-        android:id="@+id/imageView38"
+        android:id="@+id/imageView19"
         android:layout_width="117dp"
         android:layout_height="57dp"
         app:srcCompat="@drawable/captura_de_tela_2025_03_29_075043"
@@ -25,7 +35,7 @@
         tools:layout_editor_absoluteY="742dp" />
 
     <ImageView
-        android:id="@+id/imageView39"
+        android:id="@+id/imageView45"
         android:layout_width="95dp"
         android:layout_height="58dp"
         app:srcCompat="@drawable/captura_de_tela_2025_03_27_003637"
@@ -33,7 +43,7 @@
         tools:layout_editor_absoluteY="741dp" />
 
     <ImageView
-        android:id="@+id/imageView40"
+        android:id="@+id/imageView57"
         android:layout_width="108dp"
         android:layout_height="57dp"
         app:srcCompat="@drawable/captura_de_tela_2025_03_29_075142"
@@ -41,7 +51,7 @@
         tools:layout_editor_absoluteY="742dp" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView58"
         android:layout_width="149dp"
         android:layout_height="68dp"
         android:contentDescription="@string/todo"
@@ -49,6 +59,22 @@
         tools:ignore="ImageContrastCheck,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="352dp"
+        android:layout_height="131dp"
+        android:src="@drawable/i"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="352dp"
+        android:layout_height="131dp"
+        android:src="@drawable/i"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="291dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

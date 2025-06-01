@@ -34,7 +34,7 @@ android {
 
 dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.14.0"))
-    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.android.support:recyclerview-v7:30.0.0")
     implementation(libs.appcompat.v170)
     implementation(libs.appcompat)
     implementation(libs.material)
@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.gridlayout)
     implementation(libs.legacy.support.v4)
+    implementation(libs.firebase.common)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
