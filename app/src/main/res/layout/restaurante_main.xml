@@ -6,4 +6,110 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EB1B23"
-    tools:context=".ConfiguracoesClienteInterface1"/>
+    tools:context=".ConfiguracoesClienteInterface1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="27dp"
+        android:layout_height="35dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="MainActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939"
+            tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="409dp"
+        android:layout_height="272dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="ConfiguracoesClienteInterface1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="376dp"
+            android:layout_height="278dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/image3"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="196dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="178dp"
+            android:layout_height="282dp"
+            android:src="@drawable/player_button"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="201dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="CardapioClienteInterface2"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout6"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="179dp"
+            android:layout_height="276dp"
+            android:src="@drawable/player_button2"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="17dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

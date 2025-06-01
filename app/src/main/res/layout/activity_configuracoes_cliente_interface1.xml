@@ -71,18 +71,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="221dp"
-        android:layout_height="39dp"
-        android:text="Notificações:"
-
-        android:textColor="#FAFAFA"
-
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="140dp" />
-
-    <TextView
         android:id="@+id/textView14"
         android:layout_width="226dp"
         android:layout_height="34dp"
@@ -94,10 +82,47 @@
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="671dp" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip2"
-        android:layout_width="105dp"
-        android:layout_height="48dp"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="133dp" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="221dp"
+        android:layout_height="39dp"
+        android:text="Notificações:"
+
+        android:textColor="#FAFAFA"
+
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="221dp"
+        android:layout_height="39dp"
+        android:text="Ajuda"
+
+        android:textColor="#FAFAFA"
+
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="221dp"
+        android:layout_height="39dp"
+        android:text="Sair"
+
+        android:textColor="#FAFAFA"
+
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="103dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

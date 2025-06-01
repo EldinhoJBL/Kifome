@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "253988321915",
+    "project_id": "kifome-314b5",
+    "storage_bucket": "kifome-314b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253988321915:android:184c2f52ffeb5d5c59c0de",
+        "android_client_info": {
+          "package_name": "com.example.kifome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1emcw24VRu1LlZJCI86i6o0f0S4323bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
