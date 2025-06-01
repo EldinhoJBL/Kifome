@@ -27,32 +27,20 @@
         android:id="@+id/imageView4"
         android:layout_width="345dp"
         android:layout_height="237dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="42dp"
         android:src="@drawable/captura_de_tela_2025_05_28_222224"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="493dp" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="374dp"
-        android:layout_height="154dp"
-        android:src="@drawable/captura_de_tela_2025_05_28_222213"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="326dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="362dp"
-        android:layout_height="135dp"
-        android:src="@drawable/captura_de_tela_2025_05_28_222152"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="203dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="142dp"
         android:layout_height="20dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="3dp"
         android:background="#00D9A60D"
         android:backgroundTint="#B4942A"
         android:drawableTint="#DB0B0B"
@@ -61,7 +49,94 @@
         android:foregroundTint="#EDD400"
         android:text="Esqueci minha senha"
         android:textColor="#FFC107"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="452dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="102dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="224dp"
+        android:background="#00FBFBFB"
+        android:cursorVisible="false"
+        android:text="Usuário:"
+        android:textColor="#040404"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="101dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="146dp"
+        android:text="Senha:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="149dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="146dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView25" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="212dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="193dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="185dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="217dp"/>
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="209dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="39dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
