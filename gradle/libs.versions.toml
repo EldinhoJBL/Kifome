@@ -11,6 +11,7 @@ constraintlayout = "2.1.4"
 gridlayout = "1.1.0"
 legacySupportV4 = "1.0.0"
 firebaseCommon = "21.0.0"
+firebaseFirestore = "25.1.4"
 
 [libraries]
 appcompat-v170 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
@@ -24,6 +25,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 gridlayout = { group = "androidx.gridlayout", name = "gridlayout", version.ref = "gridlayout" }
 legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
 firebase-common = { group = "com.google.firebase", name = "firebase-common", version.ref = "firebaseCommon" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

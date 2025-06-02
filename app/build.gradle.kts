@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.firebase:firebase-firestore:24.9.1")
     implementation(platform("com.google.firebase:firebase-bom:33.14.0"))
     implementation("com.android.support:recyclerview-v7:30.0.0")
     implementation(libs.appcompat.v170)
@@ -43,7 +44,9 @@ dependencies {
     implementation(libs.gridlayout)
     implementation(libs.legacy.support.v4)
     implementation(libs.firebase.common)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
