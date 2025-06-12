@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/adlam_display</item>
         <item>@font/alata</item>
+        <item>@font/alumni_sans_collegiate_one</item>
+        <item>@font/angkor</item>
+        <item>@font/anton</item>
     </array>
 </resources>

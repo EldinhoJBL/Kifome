@@ -1,3 +1,5 @@
+
+
 plugins {
     alias(libs.plugins.android.application)
     id("com.google.gms.google-services")
@@ -33,9 +35,14 @@ android {
 }
 
 dependencies {
-    implementation ("com.google.firebase:firebase-firestore:24.9.1")
+    implementation("com.google.firebase:firebase-firestore:24.9.1")
     implementation(platform("com.google.firebase:firebase-bom:33.14.0"))
     implementation("com.android.support:recyclerview-v7:30.0.0")
+    implementation("com.google.firebase:firebase-firestore-ktx")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.firebaseui:firebase-ui-firestore:8.0.2")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.cardview:cardview:1.0.0")
     implementation(libs.appcompat.v170)
     implementation(libs.appcompat)
     implementation(libs.material)

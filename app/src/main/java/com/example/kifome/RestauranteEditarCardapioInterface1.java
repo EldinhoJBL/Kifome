@@ -10,8 +10,40 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class RestauranteEditarCardapioInterface1 extends AppCompatActivity {
+    private String name;
+    private String description;
+    private double price;
+    private String documentId;
 
-    Viewholder mViewHolder = new Viewholder();
+    public RestauranteEditarCardapioInterface1() {}
+
+    public RestauranteEditarCardapioInterface1(String name, String description, double price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
+
+    public String getName() { return name; }
+    public String getDescription() { return description; }
+    public double getPrice() { return price; }
+
+    public void setName(String name) { this.name = name; }
+
+    public void setDescription(String description) { this.description = description; }
+    public void setPrice(double price) { this.price = price; }
+
+    public void setDocumentId(String documentId) { this.documentId = documentId; }
+
+        Viewholder mViewHolder = new Viewholder();
+
+    @Override
+    public String toString() {
+        return "RestauranteEditarCardapioInterface1{" +
+                "name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                '}';
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +56,10 @@ public class RestauranteEditarCardapioInterface1 extends AppCompatActivity {
             return insets;
 
         });
+
+
         mViewHolder.rv_cardapio = findViewById(R.id.rv_cardapio);
+
     }
 
     private static class Viewholder{
