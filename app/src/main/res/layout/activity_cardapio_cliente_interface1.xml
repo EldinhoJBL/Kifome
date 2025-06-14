@@ -69,6 +69,7 @@
         android:layout_width="196dp"
         android:layout_height="331dp"
         android:layout_marginTop="68dp"
+        android:onClick="CarrinhoCliente"
         android:layout_marginEnd="4dp"
         android:clickable="true"
         android:focusable="true"

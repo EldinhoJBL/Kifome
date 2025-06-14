@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CarrinhoCliente">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EB1B23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="401dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="604dp"
+        android:src="@drawable/kifome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="311dp"
+        android:layout_height="161dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Logo do aplicativo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_26_015257"
+        tools:ignore="HardcodedText,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="365dp"
+        android:layout_height="107dp"
+        android:src="@drawable/i"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="155dp"
+        android:layout_height="71dp"
+        android:text="Finalizar "
+        android:textColorLink="#FFC107"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="43dp"
+        android:layout_height="21dp"
+        android:text="Total:"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="72dp"
+        android:layout_height="29dp"
+        android:text="R$ 35,00"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="144dp"
+        android:layout_height="38dp"
+        android:text="Itens Adicionados:"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="27dp"
+        android:layout_height="35dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="CardapioClienteInterface1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/captura_de_tela_2025_03_30_230939"
+            tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

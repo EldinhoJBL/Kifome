@@ -41,4 +41,10 @@ public class CardapioClienteInterface1 extends AppCompatActivity {
         startActivity(in);
     }
 
+    public void CarrinhoCliente(View view) {
+
+        Intent in = new Intent(CardapioClienteInterface1.this, CarrinhoCliente.class);
+        startActivity(in);
+    }
+
 }
